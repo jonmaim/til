@@ -27,7 +27,7 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
 ## License
 
-&copy; 2020-2020 Jon Maim
+&copy; 2020-2055 Jon Maim
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
