@@ -12,9 +12,14 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
 ### Categories
 
+* [Calendars](#calendars)
 * [Scraping](#scraping)
 
 ---
+
+### Calendars
+
+- [Microsoft Outlook storage of timezones](calendars/microsoft_outlook_storage_of_timezones.md)
 
 ### Scraping
 
