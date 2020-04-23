@@ -15,3 +15,7 @@ DTEND;TZID=Eastern Standard Time:20200503T21000
 DTSTART;TZID=America/New_York:20200424T090000
 DTEND;TZID=America/New_York:20200503T21000
 ```
+
+# Sources
+
+* [Conversion from Windows to IANA time zone names](https://gist.github.com/jonmaim/846a03cda56e35a030fdf6f99b4b1820) 
