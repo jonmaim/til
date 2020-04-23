@@ -22,7 +22,7 @@ await page.setViewport({
   deviceScaleFactor: 1,
 });
 ```
-### Immprove scraping speedd by blocking ads
+### Immprove scraping speed by blocking ads
 
 Intercepting url requests before they are executed allow us to be able to abort requests to ad domains. 
 
