@@ -19,7 +19,7 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
 ### Calendars
 
-- [Microsoft Outlook storage of timezones](calendars/microsoft_outlook_storage_of_timezones.md)
+- [Microsoft Outlook storage of timezones in ICS files](calendars/microsoft_outlook_storage_of_timezones.md)
 
 ### Scraping
 
