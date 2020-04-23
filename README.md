@@ -9,9 +9,6 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
 ### Categories
 
-
-### Categories
-
 * [Calendars](#calendars)
 * [Scraping](#scraping)
 
