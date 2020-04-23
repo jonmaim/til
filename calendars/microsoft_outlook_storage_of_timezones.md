@@ -1,6 +1,6 @@
 # Microsoft Outlook storage of timezones in ICS files
 
-Outlook uses [windows timezones](https://techsupport.osisoft.com/Documentation/PI-Web-API/help/topics/timezones/windows.html) when exporting calendar in ICS format. Meanwhile the rest of the world and libraries use the [IANA time zone database](https://www.iana.org/time-zones).
+Outlook uses [windows timezones](https://techsupport.osisoft.com/Documentation/PI-Web-API/help/topics/timezones/windows.html) when exporting calendar in ICS format. Meanwhile the rest of the world uses the [IANA time zone database](https://www.iana.org/time-zones).
 
 *Windows timezone:*
 
