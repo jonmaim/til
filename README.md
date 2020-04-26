@@ -10,6 +10,7 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 ### Categories
 
 * [Calendars](#calendars)
+* [Cloud](#cloud)
 * [Scraping](#scraping)
 
 ---
@@ -17,6 +18,10 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 ### Calendars
 
 - [Microsoft Outlook storage of timezones in ICS files](calendars/microsoft_outlook_storage_of_timezones.md)
+
+### Cloud
+
+- [Running Visual Studio Code on your cloud](cloud/running_visual_studio_on_your_cloud.md)
 
 ### Scraping
 
