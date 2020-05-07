@@ -11,6 +11,7 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
 * [Calendars](#calendars)
 * [Cloud](#cloud)
+* [iOS](#ios)
 * [Scraping](#scraping)
 
 ---
@@ -22,6 +23,10 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 ### Cloud
 
 - [Running Visual Studio Code on your cloud](cloud/running_visual_studio_on_your_cloud.md)
+
+### iOS
+
+- [Deploying apps on device with latest beta iOS](ios/deploying_apps_on_device_with_latest_beta_ios.md)
 
 ### Scraping
 
