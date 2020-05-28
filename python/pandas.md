@@ -73,3 +73,20 @@ df = reviews.loc[:99, ['country', 'variety']]
 # get the best wines from Italy
 reviews.loc[(reviews.country == 'Italy') & (reviews.points >= 90)]
 ```
+
+## Summary functions
+
+Summary functions apply on columns: `describe()`, `unique()`, `mean()`, `value_counts()`, etc.
+
+## Map functions
+
+Map (transform) a Series (column) into another.
+
+```python
+# remean the scores the wines received to 0
+review_points_mean = reviews.points.mean()
+reviews.points.map(lambda p: p - review_points_mean)
+
+# tip: compiler is not smart enough to see the DataFrame didn't change, that is why the mean value is cached
+```
+
