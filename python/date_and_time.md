@@ -19,8 +19,6 @@ t = now()
 ## From local date to Unix timestamp
 
 ```python
-from datetime import datetime
-
 local_date = datetime(year=2015, month=1, day=1, hour=0)
 t = local_date.timestamp() * 1000
 ```
@@ -28,10 +26,5 @@ t = local_date.timestamp() * 1000
 ## From Unix timestamp to local time
 
 ```python
-from datetime import datetime
-
-def now():
-  return datetime.utcnow().timestamp() * 1000
-
 local_date = datetime.utcfromtimestamp(now() / 1000)
 ```
