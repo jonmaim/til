@@ -11,7 +11,7 @@ Moreover it's easy to apply arithmetic operations between 2 timestamps to add or
 from datetime import datetime
 
 def now():
-  return datetime.utcnow().timestamp() * 1000
+  return datetime.now().timestamp() * 1000
 
 t = now()
 ```
