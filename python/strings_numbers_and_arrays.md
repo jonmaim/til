@@ -17,7 +17,7 @@ print(f'Hello {name}! This is {program}')
 ```
 ## Arrays
 
-##@ Length of array
+### Length of array
 
 ```python
 a = [1, 2, 3]
