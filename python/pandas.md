@@ -1,5 +1,7 @@
 # Pandas
 
+[Official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api).
+
 There is 2 data structures in pandas: **DataFrame** (table) and **Series** (list).
 
 A DataFrame is defined as a dictionary where keys are the column names. Unless specified otherwise row names are 0-indexed.
@@ -74,13 +76,15 @@ df = reviews.loc[:99, ['country', 'variety']]
 reviews.loc[(reviews.country == 'Italy') & (reviews.points >= 90)]
 ```
 
-## Summary functions
+## Functions
+
+### Summary
 
 Summary functions apply on columns: `describe()`, `unique()`, `mean()`, `value_counts()`, etc.
 
-## Map functions
+### Map
 
-Map (transform) a Series (column) into another.
+`.map` (transform) a Series (column) into another. Original Series remains untouched.
 
 ```python
 # remean the scores the wines received to 0
@@ -88,5 +92,17 @@ review_points_mean = reviews.points.mean()
 reviews.points.map(lambda p: p - review_points_mean)
 
 # tip: compiler is not smart enough to see the DataFrame didn't change, that is why the mean value is cached
+```
+
+### Apply
+
+`.apply` transform a DataFrame into another. Original DataFrame remains untouched.
+
+```python
+# get each row sequentially in function `f`
+reviews.apply(f, axis='columns')
+
+# get each column sequentially in function `f`
+reviews.apply(f, axis='index')
 ```
 
