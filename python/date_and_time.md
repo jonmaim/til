@@ -5,7 +5,7 @@ A Unix timestamp is a positive integer value representing the number of millisec
 There is no confusion while transmitting dates and no need to define time zones.
 Moreover it's easy to apply arithmetic operations between 2 timestamps to add or subtract a duration. 
 
-## Get current Unix timestamp in ms
+## Get current Unix timestamp in milliseconds
 
 ```python
 from datetime import datetime
@@ -16,7 +16,7 @@ def now():
 t = now()
 ```
 
-## From local date to Unix timestamp
+## From local date to Unix timestamp in milliseconds
 
 ```python
 local_date = datetime(year=2015, month=1, day=1, hour=0)
