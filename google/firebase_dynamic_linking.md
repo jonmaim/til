@@ -1,7 +1,10 @@
 # Google Firebase dynamic linking
 
-Here is a dynamic link: `https://minsh.page.link/ZCg5`
+## Dynamic link: 
 
+`https://minsh.page.link/ZCg5`. 
+
+This short-url displays different content based on the request headers sent from the client. We found different content returned when using `curl` or using a desktop browser.
 
 Let's see what's inside this short url with a `curl` user-agent:
 ```
@@ -14,7 +17,7 @@ Location: https://minsh.page.link/s?socialDescription&socialImageUrl=https://pre
 ```
 From a `curl` it is a 302 redirection to `https://minsh.page.link/s?socialDescription&socialImageUrl=https://premium.minsh.com/images/logo.png&socialTitle=Group+123`
 
-
+This is a `curl` request simulating a desktop browser:
 ```
 curl -i 'https://minsh.page.link/ZCg5?_imcp=1'   -H 'authority: minsh.page.link'   -H 'pragma: no-cache'   -H 'cache-control: no-cache'   -H 'upgrade-insecure-requests: 1'   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'sec-fetch-site: same-origin'   -H 'sec-fetch-mode: navigate'   -H 'sec-fetch-dest: document'   -H 'referer: https://minsh.page.link/'   -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8'   -H 'cookie: OTZ=5484100_34_34__34_'   --compressed
 
@@ -63,4 +66,40 @@ The social network backend is fetching the content of the url to display a title
 ```
 curl 'https://minsh.page.link/s?socialDescription&socialImageUrl=https://premium.minsh.com/images/logo.png&socialTitle=Group+123' -H 'authority: minsh.page.link' -H 'pragma: no-cache' -H 'cache-control: no-cache' -H 'upgrade-insecure-requests: 1' -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36' -H 'sec-fetch-dest: document' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' -H 'sec-fetch-site: none' -H 'sec-fetch-mode: navigate' -H 'sec-fetch-user: ?1' -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' --compressed
 
+```
+
+## https://premium.minsh.com/group/123 📱+ 💻
+```
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Date: Sat, 06 Jun 2020 16:15:45 GMT
+Server: AmazonS3
+X-Cache: Error from cloudfront
+Via: 1.1 9c958dcd7cfe69b7305581ffd7680ca3.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA50-C1
+X-Amz-Cf-Id: dPqOeWDEtA3CgLi0tpiZR3jL-Bopov7H-ex5QoSKMMfeB9JFAxaU8Q==
+Age: 219
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: group/123</li>
+<li>RequestId: 2AD4F43C70F9DC89</li>
+<li>HostId: +LLo2/RScRtomdHHW6qP0AjdG7igcAiVNOUs/w0F+4WjsHMqOHcj0nLrY8ajtDq4VOiEi6ihPWQ=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: 404.html</li>
+</ul>
+<hr/>
+</body>
+</html>
 ```
