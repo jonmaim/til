@@ -5,6 +5,11 @@
 A collection of concise write-ups on small things I learn day to day across a
 variety of technologies. Inspired from https://github.com/jbranchaud/til/
 
+**TODO**
+
+* Create a script to automatically rebuild the `Categories` section and list each category entries.
+  * Bonus: display total number of entries, latest entry, last updated entry.
+
 ---
 
 ### Categories
