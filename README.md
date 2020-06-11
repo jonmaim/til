@@ -10,6 +10,7 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 * Create a script to automatically rebuild the `Categories` section and list each category entries.
   * Bonus 1: display total number of entries, latest entry, last updated entry.
   * Bonus 2: display number of words in each entry.
+  * Bonus 3: run the script before each commit automatically from a Github action
 
 ---
 
