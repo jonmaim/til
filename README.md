@@ -8,7 +8,8 @@ variety of technologies. Inspired from https://github.com/jbranchaud/til/
 **TODO**
 
 * Create a script to automatically rebuild the `Categories` section and list each category entries.
-  * Bonus: display total number of entries, latest entry, last updated entry.
+  * Bonus 1: display total number of entries, latest entry, last updated entry.
+  * Bonus 2: display number of words in each entry.
 
 ---
 
