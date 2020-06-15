@@ -2,4 +2,4 @@
 
 ## Switch to the previously edited buffer
 
-`<C-^>` which `Ctrl + Shift + 6` on US keyboard.
+`<C-^>` which is `Ctrl + Shift + 6` on US keyboard.
