@@ -13,7 +13,8 @@ This short-url displays different content based on the request headers sent from
 Redirect to social network preview page: `https://minsh.page.link/s?socialDescription&socialImageUrl=https://premium.minsh.com/images/logo.png&socialTitle=Group+123`
 
 This is what is served when the url is pasted into a social network text input.
-The social network backend is fetching the content of the url to display a title and a thumbnail image in the feed.
+The social network backend is fetching the content of the url to display a title and a thumbnail image in the feed. 
+See `open graph` meta tags:
 
 ```html
 <!DOCTYPE html><html>
