@@ -30,8 +30,21 @@ The social network backend is fetching the content of the url to display a title
 
 ### From browser
 
-Redirect to `https://premium.minsh.com/group/123`, the actual page.
+Redirect to `https://premium.minsh.com/group/123`, the actual page we configured for this dynamic link.
 
+## Dynamic link host
 
+Our host is `https://minsh.page.link`. A dynamic link host will provide more information at this url: `https://minsh.page.link/.well-known/assetlinks.json`
+
+```json
+[{
+    "relation":["delegate_permission/common.handle_all_urls"],
+    "target":{
+      "namespace":"android_app",
+      "package_name":"com.minsh.minshpremium",
+      "sha256_cert_fingerprints":["EA:B0:E7:F8:B6:27:5E:9F:49:D2:BD:47:C7:F2:D2:52:B3:76:4D:02:F1:DC:91:F4:06:4E:28:97:F3:8B:E1:17"]
+    }
+}]
+```
 
 
