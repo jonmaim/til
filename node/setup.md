@@ -1,4 +1,4 @@
-# Node project setup
+# Node setup
 
 ## Install nvm
 
@@ -14,7 +14,7 @@ nvm install 14;
 node -v;
 ```
 
-## Setup project
+## New project setup
 
 ```bash
 mkdir project;
