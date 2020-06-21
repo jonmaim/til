@@ -5,8 +5,14 @@
 
 ## Install
 
-* [Go](https://golang.org/dl)
-* `go get -u go.coder.com/sshcode`
-* `~/go/bin/sshcode ubuntu@server.cloud "~/vscode/project1"`
+* Install [Go](https://golang.org/dl) locally
+* Install Sshcode locally:
+```
+go get -u go.coder.com/sshcode
+```
+* Connect to remote server (change `ubuntu@server.could` to your host):
+```
+~/go/bin/sshcode ubuntu@server.cloud "~/vscode/project1"
+```
 
 If you get this error: `mkdir: cannot create directory ‘/home/ubuntu/.local/share/code-server’: Permission denied`, make sure `~/.local` is owned by `ubuntu`.
