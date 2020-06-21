@@ -15,4 +15,6 @@ go get -u go.coder.com/sshcode
 ~/go/bin/sshcode ubuntu@server.cloud "~/vscode/project1"
 ```
 
+## Troubleshouting
+
 If you get this error: `mkdir: cannot create directory ‘/home/ubuntu/.local/share/code-server’: Permission denied`, make sure `~/.local` is owned by `ubuntu`.
