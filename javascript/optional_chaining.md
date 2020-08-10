@@ -24,6 +24,13 @@ The `?.` operator functions similarly to the `.` chaining operator,
 except that instead of causing an error if a reference is nullish (null or undefined), 
 the expression short-circuits with a return value of undefined.
 
+## Bracket notation
+
+A dot (`?.[x]`) needs to be used before the opening bracket: 
+```
+const value = a?.[b]?.c;
+```
+
 ## VSCode integration
 
 Add the following config to your `.eslintrc.json` file:
