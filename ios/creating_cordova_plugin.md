@@ -26,7 +26,7 @@ Cordova is webview-based multi-platform framework for mobile. A plugin is doing 
 #import "UniversalLinks.h"
 #import <Cordova/CDV.h>
 
-@implementation Unive
+@implementation UnivesrsalLinks
 
 - (void)echo:(CDVInvokedUrlCommand*)command
 {
