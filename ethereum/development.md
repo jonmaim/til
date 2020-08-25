@@ -35,3 +35,11 @@ https://solidity.readthedocs.io/en/v0.5.3/units-and-global-variables.html
 Go in `packages/buidler/contracts` and duplicate the default contract. Rename it to your liking.
 
 Open `packages/react-app/src/App.jsx` and find the `<Contract name="..." ... />` component. Change the `name` property to reflect the name of your new contract.
+
+## WETH smart contract
+
+WETH implementation on [github](https://github.com/gnosis/canonical-weth/blob/master/contracts/WETH9.sol) and [etherscan](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code)
+
+Inspiration:
+* [EhterToken.sol](https://github.com/gnosis/util-contracts/blob/master/contracts/EtherToken.sol)
+* [VeilEther](https://github.com/veilco/veil-contracts/blob/master/contracts/VeilEther.sol)
