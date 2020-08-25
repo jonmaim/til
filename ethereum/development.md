@@ -1,4 +1,6 @@
-# Ethereum development with scaffold-eth
+# Ethereum development
+
+# Scaffold-eth
 
 ## Setup
 
@@ -30,11 +32,22 @@ https://solidity-by-example.org/0.6/
 https://solidity.readthedocs.io/en/v0.5.3/units-and-global-variables.html
 ```
 
-## Create a new contract
+## Creation of a new contract
 
 Go in `packages/buidler/contracts` and duplicate the default contract. Rename it to your liking.
 
 Open `packages/react-app/src/App.jsx` and find the `<Contract name="..." ... />` component. Change the `name` property to reflect the name of your new contract.
+
+## EVM 
+
+### Storage
+
+Three areas where it can store items (from more expensive to almost free) :
+* "**storage**" keyword is persistent between function calls and holds contract *state variables*, *structs*, *arrays*, *mappings*.
+* "**memory**" keyword is temp memory that can be used inside a function, it does not persist between function calls (*function arguments*, *value type*).
+* stack is used for local variables of value type.
+
+# Resources 
 
 ## WETH smart contract
 
