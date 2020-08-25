@@ -32,6 +32,6 @@ https://solidity.readthedocs.io/en/v0.5.3/units-and-global-variables.html
 
 ## Create a new contract
 
-Go in `packages/buidler/contracts` and duplicate the default contract.
+Go in `packages/buidler/contracts` and duplicate the default contract. Rename it to your liking.
 
 Open `packages/react-app/src/App.jsx` and find the `<Contract name="..." ... />` component. Change the `name` property to reflect the name of your new contract.
