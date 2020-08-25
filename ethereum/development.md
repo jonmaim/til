@@ -1,4 +1,4 @@
-# Ethereum development
+# Ethereum development with scaffold-eth
 
 ## Setup
 
@@ -29,3 +29,9 @@ http://localhost:3000/
 https://solidity-by-example.org/0.6/
 https://solidity.readthedocs.io/en/v0.5.3/units-and-global-variables.html
 ```
+
+## Create a new contract
+
+Go in `packages/buidler/contracts` and duplicate the default contract.
+
+Open `packages/react-app/src/App.jsx` and find the `<Contract ... >` component. Change the `name` property to reflect the name of your new contract.
