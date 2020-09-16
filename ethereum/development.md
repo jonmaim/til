@@ -2,6 +2,8 @@
 
 # Scaffold-eth
 
+[Github page](https://github.com/austintgriffith/scaffold-eth)
+
 ## Setup
 
 ```
