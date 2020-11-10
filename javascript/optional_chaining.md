@@ -31,6 +31,14 @@ A dot (`?.[x]`) needs to be used before the opening bracket:
 const value = a?.[b]?.c;
 ```
 
+## Optional chaining with functions
+
+When not sure if a function is going to be present at run-time: use optional chaining when calling it.
+```
+const result = api.method?.();
+```
+The expression `api.method?.()` will return `undefined` if `method` does not exists (instead of throwing an exception).
+
 ## VSCode integration
 
 Add the following config to your `.eslintrc.json` file:
