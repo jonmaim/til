@@ -20,3 +20,13 @@ elite movements of regional and national rebellion; and a combination of elite-m
 |--|--|
 | agrarian | availability of cultivable land |
 | industrial | technological advances, investments in physical and human capital, and growing demand for goods and services resulting from increasing per capita consumption |
+
+# Principal causes of heightened instability:
+
+1) overpopulation: supply of labor exceeds its demand, the price of labor decreases, depressing the living standards for the majority of population, thus leading to popular immiseration (economic impoverishment), but creating favorable economic conditions for the elites.
+2) fiscal crisis
+3) **elite overproduction**
+
+# Cessation of political instability 
+
+Overpopulation is reversed (Malthusianism) + the conditions of elite overproduction no longer obtain. 
