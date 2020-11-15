@@ -15,3 +15,8 @@ Yet, attempts to increase revenues cannot offset the spiraling state expenses.
 Thus, even if the state succeeds in raising taxes, it is still headed for fiscal crisis. 
 As all these trends intensify, the end result is state bankruptcy and consequent loss of military control; 
 elite movements of regional and national rebellion; and a combination of elite-mobilized and popular uprisings that expose the breakdown of central authority.
+
+| type of society | demand for labor limited by |
+|--|--|
+| agrarian | availability of cultivable land |
+| industrial | technological advances, investments in physical and human capital, and growing demand for goods and services resulting from increasing per capita consumption |
