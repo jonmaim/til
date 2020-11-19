@@ -19,3 +19,7 @@
 ```
 
 Now `SHIFT+CTRL+l` will write `console.log('|')` for you.
+
+## Shortcut to close Explorer
+
+`COMMAND+B` (MacOS) or `CONTROL+B` (Windows).
