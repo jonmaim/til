@@ -1,6 +1,8 @@
 # Surviving VS Code on MacOS
 
-## A shortcut for writing `console.log`
+## Shortcuts
+
+### Writing `console.log`
 
 `SHIFT+COMMAND+P` and write 'keyboard shortcuts'. Choose option 'Open Keyboard Shortcuts (JSON)'. This opens a file called 'keybindings.json'. Modify it similarly to this:
 
@@ -20,6 +22,10 @@
 
 Now `SHIFT+CTRL+l` will write `console.log('|')` for you.
 
-## Shortcut to close Explorer
+### Close Explorer
 
 `COMMAND+B` (MacOS) or `CONTROL+B` (Windows).
+
+### Show all opened files
+
+`OPTION+COMMAND+TAB` (MacOS).
