@@ -1,5 +1,29 @@
 # Structural Demographic Theory
 
+Human societies as systems with three societal components + one process component, each interacting with each other:
+
+societal components
+  * **the general population**, 
+    * numbers = f(incomes, consumption, social optimism, instability)
+    * age structure = f(population growth rates, instability)
+    * urbanization = f(population growth rates) 
+  * **the elites**, and 
+    * numbers = f(incomes, consumption, social optimism, instability + social mobility)
+    * composition (inherited, new, aspirant, counter) = f(?)
+    * incomes = f(economic conjuncture, elite numbers, state expenditure)
+    * wealth = f(?)  
+  * **the state**.
+    * size = f(number of state employee, GDP percent going to state)
+    * revenues
+    * expenditures
+    * debt
+    * legitimacy
+  
+process component:
+  * **instability**  
+    * size
+    * growth
+
 Population growth in excess of the productivity gains of the land has several effects on social institutions:
 
 1) Persistent price inflation which imply falling real wages, rural misery, urban migration, and increased frequency of food riots and wage protests. 
