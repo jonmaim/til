@@ -59,7 +59,7 @@ Overpopulation is reversed (Malthusianism) + the conditions of elite overproduct
 
 # Math
 
-## &psi; psi
+## &psi; PSI
 
 Political Stress Indicator: the lower the better.
 
