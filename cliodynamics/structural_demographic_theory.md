@@ -1,5 +1,7 @@
 # Structural Demographic Theory
 
+__Goal:__ understand and predict the dynamics of sociopolitical instability
+
 Human societies as systems with three societal components + one process component, each interacting with each other:
 
 societal components
@@ -54,3 +56,29 @@ elite movements of regional and national rebellion; and a combination of elite-m
 # Cessation of political instability 
 
 Overpopulation is reversed (Malthusianism) + the conditions of elite overproduction no longer obtain. 
+
+# Math
+
+## &psi; psi
+
+Political Stress Indicator: the lower the better.
+
+&psi; = MMP x EMP x SFD
+
+ * MMP: mass mobilization potential (popular distress)
+ * EMP: elite mobilization potential
+ * SFD: state fiscal deficit
+ 
+MMP = w<sup>-1</sup> (<sup>N<sub>urb</sub></sup>&frasl;<sub>N</sub>) A<sub>20-29</sub>	
+
+ * w<sup>-1</sup> = 1 / w = inverse relative wage 👉 more wage will lower the MMP 
+ * N: total population
+ * N<sub>urb</sub>: Population living in cities
+ * A<sub>20-29</sub>: Proportion of population aged between 20 and 29
+ 
+EMP = &epsilon;<sup>-1</sup> (<sup>E</sup>&frasl;<sub>sN</sub>) = &epsilon;<sup>-1</sup> e
+
+ * &epsilon;<sup>-1</sup>: inverse relative elite income scaled by GDP per capita2: more income means a lower &epsilon;<sup>-1</sup> which means less intra-elite competition and thus lower the EMP.
+ * E: Elite number
+ * s: number of government employess / per total population (constant)
+ * e = <sup>E</sup>&frasl;<sub>N</sub>: relative number of elite
