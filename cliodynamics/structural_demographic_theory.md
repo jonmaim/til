@@ -67,7 +67,7 @@ Political Stress Indicator: the lower the better.
 
  * MMP: mass mobilization potential (popular distress)
  * EMP: elite mobilization potential
- * SFD: state fiscal deficit
+ * SFD: state fiscal deficit (distress)
  
 MMP = w<sup>-1</sup> (<sup>N<sub>urb</sub></sup>&frasl;<sub>N</sub>) A<sub>20-29</sub>	
 
@@ -82,3 +82,10 @@ EMP = &epsilon;<sup>-1</sup> (<sup>E</sup>&frasl;<sub>sN</sub>) = &epsilon;<sup>
  * E: Elite number
  * s: number of government employess / per total population (constant)
  * e = <sup>E</sup>&frasl;<sub>N</sub>: relative number of elite
+ 
+ SFD = <sup>Y</sup>&frasl;<sub>G</sub> (1 - T)
+ 
+  * Y: total state debt
+  * G: GDP
+  * T: percentage of population trusting government and thus (1 - T) is the percentage of population dis-trusting government
+ 
