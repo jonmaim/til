@@ -57,7 +57,7 @@ elite movements of regional and national rebellion; and a combination of elite-m
 
 Overpopulation is reversed (Malthusianism) + the conditions of elite overproduction no longer obtain. 
 
-# Math
+# Maths
 
 ## &psi; PSI
 
@@ -89,3 +89,11 @@ EMP = &epsilon;<sup>-1</sup> (<sup>E</sup>&frasl;<sub>sN</sub>) = &epsilon;<sup>
   * G: GDP
   * T: percentage of population trusting government and thus (1 - T) is the percentage of population dis-trusting government
  
+## W: model for the dynamics of real (nfaltion-adjusted ) wages
+
+W = f(GDP<sub>pc</sub>, D/S, C)
+
+ * GDP<sub>pc</sub>: gross domestic product per capita. It is calculated as <sup>G</sup>&frasl;<sub>N</sub> (G, N defined above).
+ * D: Demand of labor, i.e., number of jobs 💡 GDP divided by average worker productivity
+ * S: Supply of labor, i.e., number of people who would like to work
+ * C: "Culture" as in non-economic sources of social power: coercice, political and ideological (power relations). ❓
