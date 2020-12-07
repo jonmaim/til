@@ -78,3 +78,7 @@ tmpl.innerHTML = `
 ```
 
 Style encapsulation is defined as `document` > `element (shadow host)` > `shadow root` > `contents`
+
+# References
+
+ * [https://developers.google.com/web/fundamentals/web-components/customelements](https://developers.google.com/web/fundamentals/web-components/customelements)
