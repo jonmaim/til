@@ -4,7 +4,7 @@
 
 ### Writing `console.log`
 
-`SHIFT+COMMAND+P` and write 'keyboard shortcuts'. Choose option 'Open Keyboard Shortcuts (JSON)'. This opens a file called 'keybindings.json'. Modify it similarly to this:
+`SHIFT+COMMAND+P` and write _keyboard shortcuts_. Choose option _Open Keyboard Shortcuts (JSON)_. This opens a file called _keybindings.json_. Modify it similarly to this:
 
 ```json
 // Place your key bindings in this file to override the defaults
