@@ -79,6 +79,11 @@ tmpl.innerHTML = `
 
 Style encapsulation is defined as `document` > `element (shadow host)` > `shadow root` > `contents`
 
+# Outline
+
+ * bare-bone basics introduction: custom elements with shadow DOM
+ * higher-level libraries: lit-element -> µce
+
 # References
 
  * [https://developers.google.com/web/fundamentals/web-components/customelements](https://developers.google.com/web/fundamentals/web-components/customelements)
