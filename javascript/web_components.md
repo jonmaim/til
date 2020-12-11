@@ -82,8 +82,10 @@ Style encapsulation is defined as `document` > `element (shadow host)` > `shadow
 # Outline
 
  * bare-bone basics introduction: custom elements with shadow DOM
- * higher-level libraries: lit-element -> µce
-
+ * higher-level libraries to avoid the boilerplate: 
+   * lit-html + lit-element: typescript. well commented. many files probably around 2500 lines. needs a module bundler.
+   * µhtml + µce: javascript. 2 files totaling 2 x 1250 lines. no module bundler needed and can be used as-is as there is no bare-bone module called.
+ 
 # References
 
  * [https://developers.google.com/web/fundamentals/web-components/customelements](https://developers.google.com/web/fundamentals/web-components/customelements)
