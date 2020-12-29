@@ -100,5 +100,5 @@ W = f(GDP<sub>pc</sub>, D/S, C)
  
  # References
  
- * Age of Discord
+ * Ages of Discord
  * [Book Review: Secular Cycles](https://slatestarcodex.com/2019/08/12/book-review-secular-cycles/)
