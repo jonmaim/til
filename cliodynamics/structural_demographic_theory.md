@@ -97,3 +97,8 @@ W = f(GDP<sub>pc</sub>, D/S, C)
  * D: Demand of labor, i.e., number of jobs 💡 GDP divided by average worker productivity
  * S: Supply of labor, i.e., number of people who would like to work
  * C: "Culture" as in non-economic sources of social power: coercice, political and ideological (power relations). ❓
+ 
+ # References
+ 
+ * Age of Discord
+ * [Book Review: Secular Cycles](https://slatestarcodex.com/2019/08/12/book-review-secular-cycles/)
